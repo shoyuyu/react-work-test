@@ -1,0 +1,22 @@
+# Nodeモジュール除外
+node_modules
+
+# 出力ディレクトリを除外
+dist
+
+# ロックファイル
+package-lock.json
+
+# 設定ファイル類
+eslint.config.js
+vite.config.ts
+prettier.config.js
+.gitignore
+.prettierignore
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+
+# その他、除外するディレクトリとファイル
+src/docs
+audit-report.json
